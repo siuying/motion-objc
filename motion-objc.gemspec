@@ -1,4 +1,4 @@
-require File.expand_path('../lib/motion/objc/version', __FILE__)
+require File.expand_path('../lib/motion/project/objc/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors = ["Francis Chong"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |gem|
   gem.test_files = gem.files.grep(%r{^(test|spec|features)/})
   gem.name = "motion-objc"
   gem.require_paths = ["lib"]
-  gem.version = MotionObjc::VERSION
+  gem.version = Motion::Project::ObjC::VERSION
   gem.add_dependency 'motion-cocoapods', '>= 1.0.3'
 end

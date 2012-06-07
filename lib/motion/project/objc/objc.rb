@@ -1,6 +1,3 @@
-require "motion/project/objc/version"
-require "fileutils"
-
 unless defined?(Motion::Project::Config)
   raise "This file must be required within a RubyMotion project Rakefile."
 end
@@ -13,15 +10,13 @@ module Motion
 
     class << App
       def setup_with_motion_objc
-        setup_without_motion_objc do |app|
-          yield app
+        setup_without_motion_objc
 
-          objc_files = app.config[:objc_files]
-          if objc_files && objc_files != []
-            generator = LibGenerator.new(objc_files)
-            generator.generate
-            generator.vendor(app)
-          end
+        objc_files = app.config[:objc_files]
+        if objc_files && objc_files != []
+          generator = LibGenerator.new(objc_files)
+          generator.generate
+          generator.vendor(app)
         end
       end
 
