@@ -78,7 +78,8 @@ module Motion::Project
         config.buildSettings.merge!(@config)
       end
       @files.each do |file|
-        @target.add_source_file(Pathname.new(file).relative_path_from(@project_path))
+        full_path = File.expand_path(app.project_dir + '/' + file)
+        @target.add_source_file(Pathname.new(full_path).relative_path_from(@project_path))
       end
 
       @project.save_as(File.join(@project_path, 'MotionObjC.xcodeproj'))
