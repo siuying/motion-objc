@@ -37,10 +37,9 @@ end
 It generate a XCode project with static library target with all your specified 
 Objective-C files, and include it in your RubyMotion project.
 
-motion-objc is designed for simplify the task to add small snippets written 
-in Objective-C to RubyMotion project. If you need to include more complex 
-code base, you should create a [CocoaPods Spec](https://github.com/CocoaPods/CocoaPods) 
-instead.
+motion-objc is designed for adding small snippets written in Objective-C to RubyMotion 
+project. If you need to include more complex code base, you should create a 
+[CocoaPods Spec](https://github.com/CocoaPods/CocoaPods) instead.
 
 ## License
 
