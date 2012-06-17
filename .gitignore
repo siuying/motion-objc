@@ -7,3 +7,4 @@ resources/*.storyboardc
 Gemfile.lock
 pkg
 *.gem
+vendor/MotionObjC/MotionObjC.xcodeproj/project.pbxproj
