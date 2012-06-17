@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.email = ["francis@ignition.hk"]
   gem.description = "Simply include Objective-C files in your RubyMotion projects"
   gem.summary = "Simply include Objective-C files in your RubyMotion projects"
-  gem.homepage = "https://github.com/siuying/moiton-objc"
+  gem.homepage = "https://github.com/siuying/motion-objc"
 
   gem.files = `git ls-files`.split($\)
   gem.test_files = gem.files.grep(%r{^(test|spec|features)/})
