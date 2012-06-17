@@ -10,32 +10,49 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>005E4F498D584B50BE086A9C</key>
+		<key>3EC9CD08A92B4371815A1C54</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>DF7363B78BB64DA3B350F435</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5A5A12B49BF748059E1269DA</string>
-				<string>FFF7E2B5FBFA483FA179A254</string>
-				<string>425E545971A744A19A51C5ED</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>MotionObjC</string>
-			<key>productName</key>
-			<string>MotionObjC</string>
-			<key>productReference</key>
-			<string>955358FC6948451B99E8EB1D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>NSData+MD5Digest.m</string>
+			<key>path</key>
+			<string>../../objc/NSData+MD5Digest.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>13FFDEDFED224013BBF50F25</key>
+		<key>48C0F218DB4447489363E212</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string>$(PRODUCT_NAME)</string>
+			<key>dstSubfolderSpec</key>
+			<string>16</string>
+			<key>files</key>
+			<array>
+				<string>5E7E7263F5604ACD9FFC2C77</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5E7E7263F5604ACD9FFC2C77</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A578D2E501A34E9C83DBA2F8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6B8AB5B85DFA4875A7194078</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -69,80 +86,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>291ECD4A721C4B69B5191A26</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NSData+MD5Digest.h</string>
-			<key>path</key>
-			<string>../../objc/NSData+MD5Digest.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>425E545971A744A19A51C5ED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>$(PRODUCT_NAME)</string>
-			<key>dstSubfolderSpec</key>
-			<string>16</string>
-			<key>files</key>
-			<array>
-				<string>9981E3F91C034321AF94847F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5458931EC1EF4E04BCC89CEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E02773522BBF4875B1C5C77F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A5A12B49BF748059E1269DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5458931EC1EF4E04BCC89CEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>77044E7982024273B682F5DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>955358FC6948451B99E8EB1D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A8C32AF736B46A28C6A87DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>291ECD4A721C4B69B5191A26</string>
-				<string>E02773522BBF4875B1C5C77F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D66DA63106547598488704C</key>
+		<key>7FC315559FB74247A2F531DB</key>
 		<dict>
 			<key>children</key>
 			<array/>
@@ -153,66 +97,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>909FBD5CA28A4C3995BEE38F</key>
+		<key>814A46B5436A4267ACD24A93</key>
 		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0420</string>
-			</dict>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>en</string>
+				<string>83EDF5148D9B4A90B04FA920</string>
+				<string>6B8AB5B85DFA4875A7194078</string>
 			</array>
-			<key>mainGroup</key>
-			<string>7A8C32AF736B46A28C6A87DB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>005E4F498D584B50BE086A9C</string>
-			</array>
-		</dict>
-		<key>955358FC6948451B99E8EB1D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libMotionObjC.a</string>
-			<key>path</key>
-			<string>libMotionObjC.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>9981E3F91C034321AF94847F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>291ECD4A721C4B69B5191A26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D75FF2F238B141A282809942</key>
+		<key>83EDF5148D9B4A90B04FA920</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -246,28 +141,113 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DF7363B78BB64DA3B350F435</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D75FF2F238B141A282809942</string>
-				<string>13FFDEDFED224013BBF50F25</string>
-			</array>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E02773522BBF4875B1C5C77F</key>
+		<key>A578D2E501A34E9C83DBA2F8</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>NSData+MD5Digest.m</string>
+			<string>NSData+MD5Digest.h</string>
 			<key>path</key>
-			<string>../../objc/NSData+MD5Digest.m</string>
+			<string>../../objc/NSData+MD5Digest.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>FFF7E2B5FBFA483FA179A254</key>
+		<key>A71ED32113CD4098A66B4443</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>814A46B5436A4267ACD24A93</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D1760EC8D2454B9C94BBEF65</string>
+				<string>D284008D600747AD88A88BC3</string>
+				<string>48C0F218DB4447489363E212</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MotionObjC</string>
+			<key>productName</key>
+			<string>MotionObjC</string>
+			<key>productReference</key>
+			<string>AD7BE20A26F2428F8AE330BE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>AD7BE20A26F2428F8AE330BE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMotionObjC.a</string>
+			<key>path</key>
+			<string>libMotionObjC.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>AF0BF0871C654C2BA395924E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A578D2E501A34E9C83DBA2F8</string>
+				<string>3EC9CD08A92B4371815A1C54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C8E545E1C1444967A3103B20</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0420</string>
+			</dict>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>AF0BF0871C654C2BA395924E</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>A71ED32113CD4098A66B4443</string>
+			</array>
+		</dict>
+		<key>D1760EC8D2454B9C94BBEF65</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DF3C8B6C295247AE8F497241</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D284008D600747AD88A88BC3</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -278,8 +258,28 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>DF3C8B6C295247AE8F497241</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3EC9CD08A92B4371815A1C54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DF70FB90651F4AFAA41BA02A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AD7BE20A26F2428F8AE330BE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>909FBD5CA28A4C3995BEE38F</string>
+	<string>C8E545E1C1444967A3103B20</string>
 </dict>
 </plist>

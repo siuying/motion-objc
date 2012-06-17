@@ -3,7 +3,6 @@ $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
 require 'rubygems'
 require 'bundler/setup'
-
 require 'xcodeproj'
 require 'motion-objc'
 

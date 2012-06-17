@@ -6,3 +6,4 @@ resources/*.momd
 resources/*.storyboardc
 Gemfile.lock
 pkg
+*.gem
