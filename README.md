@@ -13,14 +13,14 @@ gem install motion-objc
 
 Add following lines to your project ```Rakefile```
 
-```
+```ruby
 require 'rubygems'
 require 'motion-objc'
 ```
 
 Add objective-C files to your project with ```app.objc_files```
 
-```
+```ruby
 Motion::Project::App.setup do |app|
   app.name = 'MotionObjCTest'
   app.identifier = 'hk.ignition.objc'
@@ -32,7 +32,7 @@ end
 ## How it works?
 
 It generate a XCode project with static library target with all your specified 
-Objective-C files.
+Objective-C files, and include it in your RubyMotion project.
 
 motion-objc is designed for simplify the task to add small snippets written 
 in Objective-C to RubyMotion project. If you need to include more complex 
