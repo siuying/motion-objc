@@ -18,7 +18,10 @@ require 'rubygems'
 require 'motion-objc'
 ```
 
-Add objective-C files to your project with ```app.objc_files```
+Add Objective-C files to your project. e.g. Create a objc folder and add *.h/*.m
+files there.
+
+Tell motion-objc where your Objective-C files located using ```app.objc_files```
 
 ```ruby
 Motion::Project::App.setup do |app|
