@@ -12,5 +12,5 @@ Gem::Specification.new do |gem|
   gem.name = "motion-objc"
   gem.require_paths = ["lib"]
   gem.version = Motion::Project::ObjC::VERSION
-  gem.add_dependency 'xcodeproj', '0.1.0'
+  gem.add_dependency 'xcodeproj', '0.2.3'
 end
